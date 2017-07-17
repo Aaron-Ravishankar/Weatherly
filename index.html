@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weatherly, Your weather - On The Go">
+    <meta name="keywords" content="Weatherly, Weather app, Weather, Current Weather" />
+    <meta name="author" content="Aaron">
+    <!-- /Meta Tags -->
+
+    <!-- Title -->
+    <title>Weatherly</title>
+    <!-- /Title -->
+
+    <!-- Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/weather-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- /Core CSS -->
+
+    <!-- Custon CSS-->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- /Custom CSS -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon/weather clouds.ico" type="image/x-icon">
+    <!-- /Favicon -->
+
+</head>
+
+<!-- Body -->
+
+<body>
+    <!-- Container -->
+    <div class="container-fluid noselect animated fadeIn">
+
+        <!-- Banner -->
+        <div class="banner img_responsive" id="banner-background">
+
+        </div>
+        <!-- /Banner -->
+
+        <!-- Top Info Bar -->
+        <div class="location-temp-bar animated" id="info-bar">
+
+        </div>
+        <!-- /Top Info Bar -->
+
+        <!-- Weather Status Big -->
+        <div class="weather-status animated" id="weather-description">
+
+        </div>
+        <!-- /Weather Status Big -->
+
+        <!-- Weather Timeline -->
+        <div class="weather-timeline-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="weather-timeline col-lg-3 col-xs-6 animated" id="timeline-1">
+
+                    </div>
+                    <div class="weather-timeline col-lg-3 col-xs-6 animated" id="timeline-2">
+
+                    </div>
+                    <div class="weather-timeline col-lg-3 col-xs-6 animated" id="timeline-3">
+
+                    </div>
+                    <div class="weather-timeline col-lg-3 col-xs-6 animated" id="timeline-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Weather Timeline -->
+
+        <!-- Settings Gear -->
+        <div hidden class="setting_gear animated">
+            <div class="gear_inner" data-toggle="modal" data-target="#openModal">
+                <span class="setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <!-- /Settings Gear -->
+
+    </div>
+    <!-- /Container -->
+
+    <!-- Modal -->
+    <div class="modal fade animated slideInUp noselect" id="openModal" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-right">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close_modal"><i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h3>Where Are You?</h3>
+                    <br>
+                    <input type="text" autofocus placeholder="Enter a location" class="animated" id="mapSearch">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- Core JS -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7QJSRyG0Ns6MQNmc5pX2JPsX6VGooNPY&libraries=places"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--     <script type="text/javascript" src="js/typed.js"></script> -->
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- /Core JS -->
+
+</body>
+<!-- /Body -->
+
+</html>

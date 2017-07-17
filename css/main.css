@@ -1,0 +1,147 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    -webkit-animation-duration: 2s;
+}
+.img_responsive {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    -webkit-animation-duration: 0.5s;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -100;
+}
+.location-temp-bar {
+    padding: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.weather-status {
+    padding: 10px;
+    margin-top: 5%;
+    font-family: 'Pacifico', cursive;
+    font-size: 550%;
+    text-align: center;
+}
+.weather-timeline-bar {
+    float: bottom;
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 15px;
+}
+#temp-right {
+    float: right;
+    padding-right: 5px;
+}
+.weather-timeline {
+    padding: 20px;
+    text-align: center;
+}
+#small-font {
+    content: "\2103";
+    vertical-align: super;
+    font-size: smaller;
+}
+#timeline-1 {
+    -webkit-animation-delay: 0.1s
+}
+#timeline-2 {
+    -webkit-animation-delay: 0.15s;
+}
+#timeline-3 {
+    -webkit-animation-delay: 0.2s;
+}
+#timeline-4 {
+    -webkit-animation-delay: 0.25s;
+}
+.pac-container {
+    z-index: 1051;
+}
+.modal-header {
+    border-style: none;
+}
+.close:hover {
+    color: black;
+}
+.center-icon {
+    font-size: 100%;
+}
+.timeline-icon {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+.setting_gear {
+    -webkit-animation-delay: 0.25s;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    float: right;
+}
+.setting {
+    float: right;
+    padding-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.modal {
+    overflow: hidden;
+    text-align: center;
+    -webkit-animation-duration: 0.4s;
+    top: 15%;
+}
+.modal-content {
+    height: 60vh;
+    color: black;
+    opacity: 0.95;
+}
+.modal-body {
+    position: relative;
+    top: 50%;
+    transform: translateY(-70%);
+}
+.modal-body h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.modal-body input {
+    font-size: 15px;
+    padding: 10px border: 1px solid #cbcbcb;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    height: 50px;
+    width: 90%;
+    padding: 15px;
+}
+/* disable highlighting feature */
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* /disable highlighting feature */
